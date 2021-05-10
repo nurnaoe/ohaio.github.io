@@ -1,0 +1,511 @@
+html {
+  margin-bottom: 0;
+}
+body {
+  padding-top: 3rem;
+  background-image: url(Midterm/bg-img2.jpg);
+  background-attachment: fixed;
+}
+nav {
+  height: 65px;
+}
+nav ul li > a {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.dropdown-item:hover {
+  background-color: transparent;
+  text-shadow: 1px 1px 2px white, 0 0 1em lightgray;
+}
+.navbar-nav > li a{
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: bold;
+}
+.navbar-nav > li {
+  padding-right: 30px;
+}
+.navbar-nav > li a:hover{
+  text-shadow: 1px 1px 2px white, 0 0 1em lightgray;
+}
+.navbar-brand img {
+  padding-left: 20px;
+  padding-top: 2px;
+  width: 100px;
+  height: 80px;
+}
+.wellcome-container {
+  width: 1350px;
+  height: 700px;
+}
+.container-xxl {
+  margin-bottom: 0;
+}
+.row .h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+.h3 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+}
+.row .description {
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  display:block;
+}
+.flogo {
+  width: 300px;
+  height: 180px;
+}
+.logo-text1 {
+  display: inline;
+  padding-left: 40px;
+  font-size: 30px;
+  font-family: 'Yeseva One', cursive;
+  color: red;
+}
+.logo-text2 {
+  font-size: 30px;
+  font-family: 'Yeseva One', cursive;
+  color: blue;
+}
+.logo-text3 {
+  padding-left: 10px;
+  font-size: 30px;
+  color: black
+}
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+.card {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.row .videos {
+  width: 500px;
+  height: 320px;
+}
+.row .h2 {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+.list {
+  font-size: 23px;
+  font-family: 'Crimson Text', serif;
+}
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+.contact-logo-img {
+  width: 150px;
+  height: 150px;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40rem;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-item > img {
+  right: : 0;
+  height: 40rem;
+}
+.carousel-img {
+  width: 80%;
+}
+.carousel-img2 {
+  margin-left: 40px;
+  width: 80%;
+}
+.carousel-img3 {
+  margin-top: 100px;
+  width: 90%;
+}
+.jumbotron {
+  margin-left: 130px;
+  margin-top: 190px;
+}
+.jumbotron2 {
+  margin-top: 190px;
+}
+.welcome-video {
+  margin-top: 20px;
+  width: 1380px;
+  height: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+.stats-details summary:hover {
+  box-shadow: 1px 1px 2px black;
+  padding: 3px;
+}
+.stats-details {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.stats-details summary {
+  display: block;
+  padding: 2px;
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  outline-style: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content
+}
+.stats {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background: #efefef;
+  overflow: hidden;
+}
+.panel {
+  width: 900px;
+  height: 400px;
+  background: #838CC7;
+  box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 60px;
+  background: #fff;
+}
+
+.title {
+  color: #5E6977;
+  font-weight: 500;
+}
+
+.calendar-views span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #BDC6CF;
+  padding: 6px 14px;
+  border: 2px solid transparent;
+}
+.panel-body {
+  display: flex;
+  height: 340px;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 25%;
+  padding: 39px 0 41px 26px;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+}
+.category span:first-child {
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.6;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.category span:last-child {
+  font-size: 32px;
+  font-weight: 300;
+  color: #fff;
+}
+.chart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  position: relative;
+}
+#first-circle {
+  width: 10px;
+  height: 10px;
+  background: #7fee1d;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#second-circle {
+  width: 10px;
+  height: 10px;
+  background: orange;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#third-circle {
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.operating-systems {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 215px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+span[class*=&quot;-os&quot;] {
+  font-size: 14px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #c3c6e4;
+}
+span[class*=&quot;-os&quot;] span {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.android-os span {
+  background: #80B354;
+}
+.ios-os span {
+  background: #F5A623;
+}
+.windows-os span {
+  background: #F8E71C;
+}
+div[class*=&quot;-stats&quot;] {
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  opacity: 0;
+  animation: showstats 0.6s linear 1.8s;
+  animation-fill-mode: forwards;
+}
+
+div[class*=&quot;-stats&quot;] span {
+  height: 12px;
+  width: 12px;
+  margin: 0 7px;
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.android-stats {
+  bottom: 155px;
+  right: 230px;
+}
+
+.ios-stats {
+  bottom: 83px;
+  left: 133px;
+}
+
+.windows-stats {
+  bottom: 133px;
+  right: 62px;
+}
+.calendar-views span:hover {
+  border: 2px solid #BDC6CF;
+  cursor: pointer;
+  border-radius: 15px;
+}
+div[class*=&quot;-stats&quot;] span:hover {
+  transform: scale(1.4) rotate(0.02deg);
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.android-stats span:hover {
+  background: #80B354;
+}
+
+.ios-stats span:hover {
+  background: #F5A623;
+}
+
+.windows-stats span:hover {
+  background: #F8E71C;
+}
+.dataset-1 {
+  animation: raise .8s linear 1;
+  transform-origin: bottom;
+}
+.dataset-2 {
+  animation: raise 1.6s linear 1;
+  transform-origin: bottom;
+}
+.dataset-3 {
+  animation: raise 1.8s linear 1;
+  transform-origin: bottom;
+}
+
+.lines {
+  opacity: 0;
+  animation: showlines 0.6s linear 1.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showlines {
+  to { opacity: 0.2; }
+}
+
+@keyframes showstats {
+  to { opacity: 1; }
+}
+
+@keyframes raise {
+  0% { transform: scaleY(0.01); }
+  75% { transform: scaleY(1.1); }
+  100% { transform: scaleY(1); }
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.rounded {
+  width: 300px;
+  height: 180px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+.features-img {
+  width: 80%;
+  height: 900px;
+}
+.box {
+  border: 1px solid lightgray;
+  height: 250px;
+  width: 250px;
+
+}
+.text-head {
+  text-align: center;
+  font-size: 20px;
+
+}
+.feature-box {
+  margin-bottom: 45px;
+  margin-top: 20px;
+}
+.icons {
+  padding-top: 6px;
+  text-align: center;
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.feature-text {
+  font-size: 14px;
+  padding: 5px;
+}
+.bold-text {
+    color: #989c9e;
+}
+.footer-text {
+  color: black;
+  font-size: 15px;
+  padding: 2px;
+}
+.footer-logo {
+  text-decoration: none;
+  color: black;
+}
+.footer-logo:hover {
+  color: gray;
+  padding: 1px;
+}
+.menu-content {
+  padding-left: 5px;
+  color: black;
+  text-decoration: none;
+}
+.container-xxl {
+  margin: 0;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
